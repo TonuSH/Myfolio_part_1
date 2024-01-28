@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+/*Common CSS Start*/
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+/*Common CSS End*/
+/* nav section start */
+nav{
+    background-color: #02918c;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav ul li a{
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 26px 25.5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    transition: 0.6s;
+}
+/* nav end */
+/* banner start */
+#banner{
+    padding: 210px 0;
+    background-image: url(./../image/banner_bg.png);
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+#banner h1{
+    font-size: 68px;
+    line-height: 75px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 30px;
+    margin-bottom: 10px;
+}
+#banner h3{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+#banner p{
+    font-size: 18px;
+    line-height: 33px;
+}
+#banner img{
+    margin: 52px 0;
+}
+#banner a{
+    display: block;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    color: #0b1016;
+    background-color: #cfc91d;
+    width: fit-content;
+    padding: 10px 42px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+/*banner end*/
